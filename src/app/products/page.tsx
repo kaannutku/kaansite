@@ -8,6 +8,7 @@ import { products } from '@/data/content';
 import SectionProductsHeader from './SectionProductsHeader';
 
 const page = ({ searchParams }: { searchParams?: { [key: string]: string } }) => {
+  console.log(searchParams);
 
   return (
     <div className="container mb-20">
